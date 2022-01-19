@@ -1,7 +1,7 @@
 import random
 
 
-class Die:
+class Die:   
     # TODO: Implement the Die class as follows...
 
     # 1) Add the class declaration. Use the following class comment.
