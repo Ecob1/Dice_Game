@@ -1,7 +1,6 @@
 import random
 
-
-class Die:   
+class Die:
     # TODO: Implement the Die class as follows...
 
     # 1) Add the class declaration. Use the following class comment.
@@ -18,10 +17,10 @@ class Die:
     """Constructs a new instance of Die with a value and points attribute.
 
     Args:
-        self (Die): An instance of Die. 
+        self (Die): An instance of Die.
     """
 
-    def __init__(self):
+    def __init__(self): 
         self.value = 0
         self.points = 0
 
@@ -31,7 +30,6 @@ class Die:
     Args:
         self (Die): An instance of Die.
     """
-
     def roll(self):
         self.value = random.randint(0, 6)
         if self.value == 1:
