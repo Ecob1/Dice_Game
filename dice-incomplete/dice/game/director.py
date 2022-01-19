@@ -44,8 +44,9 @@ class Director:
         Args:
             self (Director): An instance of Director.
         """
-        roll_dice = input("Roll dice? [y/n] ")
-        self.is_playing = (roll_dice == "y")
+        roll_dice = input("Roll dice? [y/n] or [yes/no] ")
+        self.is_playing = (roll_dice == "y" or roll_dice == "yes")
+
 
     def do_updates(self):
         """Updates the player's score.
