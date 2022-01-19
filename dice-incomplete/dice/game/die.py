@@ -1,5 +1,6 @@
 import random
 
+
 class Die:
     # TODO: Implement the Die class as follows...
 
@@ -19,17 +20,17 @@ class Die:
     Args:
         self (Die): An instance of Die.
     """
-
-    def __init__(self): 
+    #  Creating the constructor and attributes
+    def __init__(self):
         self.value = 0
         self.points = 0
 
 # 3) Create the roll(self) method. Use the following method comment.
-    """Generates a new random value and calculates the points.
-    
+    """Generates a new random value and calculates the points.    
     Args:
         self (Die): An instance of Die.
     """
+    # Creating the points and the method to roll 5 dices
     def roll(self):
         self.value = random.randint(0, 6)
         if self.value == 1:

@@ -41,7 +41,6 @@ class Director:
 
     def get_inputs(self):
         """Ask the user if they want to roll.
-
         Args:
             self (Director): An instance of Director.
         """
@@ -50,7 +49,6 @@ class Director:
 
     def do_updates(self):
         """Updates the player's score.
-
         Args:
             self (Director): An instance of Director.
         """
@@ -65,7 +63,6 @@ class Director:
 
     def do_outputs(self):
         """Displays the dice and the score. Also asks the player if they want to roll again. 
-
         Args:
             self (Director): An instance of Director.
         """
