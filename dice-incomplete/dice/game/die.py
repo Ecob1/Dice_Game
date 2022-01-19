@@ -1,5 +1,6 @@
 import random
 
+
 class Die:
     # TODO: Implement the Die class as follows...
 
@@ -38,4 +39,3 @@ class Die:
         elif self.value == 5:
             self.points += 50
         return self.points
-# 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
