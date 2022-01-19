@@ -17,7 +17,7 @@ class Die:
     """Constructs a new instance of Die with a value and points attribute.
 
     Args:
-        self (Die): An instance of Die.
+        self (Die): An instance of Die. 
     """
 
     def __init__(self):
@@ -38,3 +38,4 @@ class Die:
         elif self.value == 5:
             self.points += 50
         return self.points
+# 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
